@@ -1,0 +1,15 @@
+name:  joshmusic
+
+services:
+  app:
+    build:
+      context: .
+    tty: true
+    # ports:
+    #   - "8081:8081"
+    #   - "8080:8080"
+    #   - "19000:19000"
+    network_mode: "host"
+    volumes:
+      - .:/app
+      - /app/node_modules
