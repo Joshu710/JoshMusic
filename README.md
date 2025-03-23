@@ -7,7 +7,7 @@
 
 
 ## In Progress
-- [ ] Initial React Native App
+- [x] Initial React Native App
 - [ ] Music Player / Take in youtube link
 
 
