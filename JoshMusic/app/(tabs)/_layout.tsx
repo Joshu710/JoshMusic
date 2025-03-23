@@ -9,14 +9,7 @@ export default function testLayout() {
         <Tabs.Screen
           name="index"
           options={{
-            title: "Index",
-            href: null,
-          }}
-        />
-        <Tabs.Screen
-          name="player"
-          options={{
-            title: "Player",
+            title: "Home",
           }}
         />
         <Tabs.Screen
